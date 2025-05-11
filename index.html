@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Andrii Drobenchuk Resume</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="photo">
+            <img src="photo.png" alt="Profile Photo">
+        </div>
+        <div class="header-text">
+            <h1><span>Andrii</span> Drobenchuk</h1>
+            <h2>Product Matching Analyst</h2>
+            <div class="theme-toggle">
+                <label class="switch">
+                    <input type="checkbox" id="theme-switch">
+                    <span class="slider round"></span>
+                </label>
+                <span class="toggle-label">Dark Mode</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="sidebar">
+            <section>
+                <h3>My Contact</h3>
+                <p><strong>Address:</strong><br> Lviv, Akademika Andriia Sakharova St.</p>
+                <p><strong>Phone:</strong><br> +380505092543</p>
+                <p><strong>Email:</strong><br> andreidrobenchuk2@gmail.com</p>
+            </section>
+
+            <section>
+                <h3>Education</h3>
+                <p>Lviv Polytechnic National University</p>
+                <p>Institute of Computer Technologies, Automation and Metrology</p>
+                <p>Cybersecurity and Information Protection</p>
+                <p>(2022-2026)</p>
+            </section>
+
+            <section>
+                <h3>Hard Skills</h3>
+                <ul>
+                    <li>MySQL</li>
+                    <li>MariaDB</li>
+                    <li>XAMPP</li>
+                    <li>Supabase</li>
+                    <li>MS Excel</li>
+                    <li>MS Word</li>
+                    <li>MS PowerPoint</li>
+                    <li>Tableau</li>
+                </ul>
+            </section>
+        </aside>
+
+        <main class="content">
+            <section>
+                <h3>About Me</h3>
+                <p> Third-year cybersecurity student with a strong background in data analytics. I have strong analytical skills, 
+                the ability to work with large volumes of data, and the ability to learn quickly and adapt to dynamic 
+                environments. I am looking for an opportunity to develop as a Junior Data Analyst, where I can apply my 
+                technical skills in SQL, MS Excel, and BI tools, as well as my knowledge of auditing and data reporting.</p>
+            </section>
+
+            <section>
+                <h3>Skills</h3>
+
+                <h4>Analytical Skills</h4>
+                <p>Strong math skills, problem solving skills, data visualisation and analysis skills, cryptocurrency analytics experience.</p>
+
+                <h4>Work with Data</h4>
+                <p>Collection, organization, and analysis of large volumes of data, internal reporting.</p>
+
+                <h4>Technical Skills</h4>
+                <ul>
+                    <li>SQL: Average level of use for writing complex queries.</li>
+                    <li>MS Excel: Advanced use of formulas, pivot tables, and charts.</li>
+                    <li>BI Tools: Basic knowledge of Tableau.</li>
+                </ul>
+
+                <h4>Languages</h4>
+                <ul>
+                    <li>English – Intermediate (spoken and written level).</li>
+                    <li>German – Basic knowledge.</li>
+                </ul>
+
+                <h4>Soft Skills</h4>
+                <p>Self-motivation, ability to learn, ability to work in a team, meeting deadlines, initiative.</p>
+            </section>
+
+            <section>
+                <h3>Projects and Experience</h3>
+
+                <h4>Educational course “Databases and knowledge” and course work on it (MySQL, MariaDB, XAMPP)</h4>
+                <p>Analyzed the subject area and identify problems that can be solved using the database.
+                Created a conceptual and mathematical model of the database.
+                Implementation of the database management system using the XAMPP technology stack.
+                Writing SQL queries to retrieve and analyze data.
+                Preparation of reports and presentation of results.</p>
+
+                <h4>Owm project: Database management using Supabase</h4>
+                <p>Using Supabase to store, retrieve, and analyze data.
+                Creation of dashboards for data visualization and analysis of results.</p>
+
+            </section>
+
+            <section id="comments-section">
+                <h3>Comments from Employers</h3>
+                <div id="comments"></div>
+            </section>
+
+        </main>
+    </div>
+
+    <footer id="info" style="background:#2e3548; color:white; text-align:center; padding:10px;">
+        Інформація про браузер завантажується...
+    </footer>
+
+  
+<div id="feedback-modal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn">&times;</span>
+    <h3>Зворотній зв’язок</h3>
+    <form action="https://formspree.io/f/mvgabpvq" method="POST">
+      <label>Ім’я:<br><input type="text" name="name" required></label><br><br>
+      <label>Email:<br><input type="email" name="email" required></label><br><br>
+      <label>Телефон:<br><input type="tel" name="phone" required></label><br><br>
+      <label>Повідомлення:<br><textarea name="message" required></textarea></label><br><br>
+      <button type="submit">Відправити</button>
+    </form>
+  </div>
+</div>
+
+ <script src="script.js"></script>
+
+</body>
+</html>
